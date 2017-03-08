@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+<title>Spotify App</title>
+<link rel="stylesheet" href="stylesheet.css">
+ <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+  
+<link rel="shortcut icon" href="Title.ico"/>
+<script src="jquery-3.1.1.js"></script>
+<script src="spotifyapp.js"></script>
+
+</head>
+<body>
+<div class="header">
+<h1 id="headline">SPOTIFY</h1><h1 id="secondline">APP</h1>
+<p class="subline">Search artist and browse their albums and songs and listen previews of songs</p>
+<p class="subline">Powered by:<a id="api" href="https://developer.spotify.com/web-api/"> Spotify Web Api</a></p>    
+</div> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div id="searchbar">
+<label>Search for artists: &nbsp;
+<!--  onkeyup=" if(!(event.keyCode>36&&event.keyCode<41)){getArtist(this.value)}"  -->
+    <input id="artistsearch" list="artists">&nbsp;&nbsp;<input type="button"  class="button" id="executesearch" value="Display search results"> 
+        </div>
+        <br>
+        <br>
+<div id="container">
+        <ul id="linkto">
+        </ul>
+</div>
+    <br>
+    <br>
+    <br>
+    <p id="attention">ATTENTION: This app will only display albums that are available in Finland</p>
+    
+    
+<input type="button" id="showalbums" onclick="getAlbums()" value="Show Albums"> </label>
+
+   
+
+
+
+   <br>
+
+
+
+<br>
+
+<div id="albumdata">  
+
+</div>
+<div id="artistdata">  
+<br>
+</div>
+
+
+<div id="artistid">
+</div>
+ 
+
+<br>
+<br>
+<br>
+<div id="footer">
+&nbsp;&nbsp;&nbsp;&nbsp;© Mikko Niskanen &nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,305 @@
+html {
+font-family: 'Lato', serif;
+    color: whitesmoke;
+}
+
+.listing {
+    height: 50px;
+    width: 50px;
+}
+
+.links {
+color:black;
+}
+
+.links:hover {
+    color: #9fe025;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background: url(audiowavebg.jpg) no-repeat;    
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    margin-left: 125px;
+    position: absolute;
+    overflow: scroll;
+    
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.border {
+    border: 1px solid black;
+    background: white;
+}
+
+
+
+#headline {
+    font-weight: 1000;
+    display: inline;
+}
+#secondline {
+    font-weight: 100;
+    display: inline;
+    
+}
+
+body {
+    background-color: #333435;
+    
+    
+}
+
+#progress {
+    
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #ddd;
+}
+
+#bar {
+    position: absolute;
+    height: 100%;
+    background-color: #9fe025;
+}
+#progresslabel {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+#artistname {
+    
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+#artistpic {
+    height: 250px;
+    width: 250px;
+    box-shadow:10px 10px 40px 10px #39FF14;   
+}
+
+#albumdata {
+    display: none;
+    margin-top: 30px;
+    width: 950px;
+    height: 700px;
+    overflow: scroll;
+    position: absolute;
+    left: 560px;
+    
+}
+
+#showalbums {
+    float: right;
+    
+    
+}
+
+
+table {      
+            float: right;
+            color: whitesmoke;
+            border-collapse: collapse;
+            width: 700px;
+            border: 3px solid #606060;
+            font-size: 20px;
+        }
+        th, td {           
+            
+            font-family: 'Lato', serif;
+            font-size: 15px;
+            padding: 0px 10px;
+        }
+        tr {
+            background-color: black
+        }
+        th, td {
+            border: 10px solid #606060;
+        }
+        td {
+            height: 40px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+#albumcover {
+    width: 128px;
+    height: 128px;
+}
+
+#albumimage1 {
+    width: 100px;
+          
+}
+
+
+
+#release_date {
+    font-size: 20px;
+    width: 140px;
+    padding: 0px 10px;
+}
+
+#nameofalbum {
+    font-size: 20px;
+    width : 140px;
+    padding: 0px 10px;
+}
+
+#release_date_precision {
+    font-size: 20px;
+    width : 140px;
+    padding: 0px 10px;
+}
+
+#albumlabel {
+    font-size: 20px;
+    width : 140px;
+    padding: 0px 10px;
+}
+
+ul {
+    list-style-type: none;
+  
+}
+
+#followers {
+    font-size: 30px;
+    color: #39FF14;
+}
+#artistdata {
+    border-left: 10px solid   #39FF14;
+    width: 400px;
+    background-color: black; 
+    
+    
+}
+
+#footer {
+    
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    border: 2px solid #333435;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #0e0f0f;
+}
+
+a {
+    color: white;
+    text-decoration: none;'
+    cursor: pointer;
+}
+#api: link {
+    color: darkseagreen;
+    text-decoration: none;
+}
+
+#api:visited {
+    color: azure;
+}
+
+#api:hover {
+    
+    color: firebrick;
+}
+
+button {
+    background-color: #39FF14;
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    border-radius: 20px;
+} 
+
+button:hover {
+    box-shadow: 0px 5px 10px 0px #F5F5F5;
+}
+
+
+#searchbar {
+    margin: 0 auto;
+}
+
+#artistsearch {
+    width: 300px;
+    height: 25px;
+    border: 1px solid #39FF14;
+}  
+
+#executesearch {
+    border-radius: 5px;
+    background-color: #39FF14;
+    border: none;
+    color: black;
+    padding: 6px 8px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    display: inline-block;
+}
+
+
+
+#executesearch:hover {
+     box-shadow: 0px 5px 10px 0px #F5F5F5;
+}
+
+#showalbums {
+    background-color: #39FF14;
+    border: none;
+    color: black;
+    padding: 5px 20px;;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+
+#showalbums:hover {
+     box-shadow: 0px 5px 10px 0px #F5F5F5;
+}
+
+#errormessage {
+    font-size: 30px;
+}
+
+#openartist {
+    border: 5px solid #2ed611;
+    background-color: #2ed611;
+    font-size: 20px;
+    width: 200px;
+    padding: 2px 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+label {
+    font-size: 20px;
+    float: left;
+}
+
